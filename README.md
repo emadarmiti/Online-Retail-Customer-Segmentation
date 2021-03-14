@@ -1,17 +1,13 @@
-## Introduction
+### Introduction
 
-In this project we use different Machine Learning algorithms (Linear Model, Ridge, KNN, and Decision Tree) to predict the number of bike rentals using the Bike Sharing Demand dataset from Kaggle : [Dataset](https://www.kaggle.com/c/bike-sharing-demand/data)
+> This is a customer segmentation for a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail. The company mainly sells unique all-occasion gifts. [Dataset](https://archive.ics.uci.edu/ml/datasets/Online+Retail#)
 
-## Project Architecture
+### Models behind
 
-- General Look at the Data
-
-- Fearture Preprocessing
-
-- Exploratory Data Analysis (EDA)
-
-- Feature Engineering
-
-- Machine Learning Models (Linear Model, Ridge, KNN, and Decision Tree)
-
-- Models Prediction vs Ground Truth
+> The clustering was based on RFM segmentation (recency, frequency, and monetary). We tried these algorithms for clustering:
+>
+> - Kmeans
+> - Agglomerative
+> - Spectral
+> - DBSCAN
+> - HDBSCAN
